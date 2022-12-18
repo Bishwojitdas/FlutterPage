@@ -82,17 +82,7 @@ class _Empty_PageState extends State<Empty_Page> {
                         }, child: const Text(" Date", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
                         ),
 
-                        const SizedBox(height: 10,),
-                        ElevatedButton(onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => TimeDateNew()));
-                        }, child: const Text(" Time", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
-                        ),
 
-                        const SizedBox(height: 10,),
-                        ElevatedButton(onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => TimeDateNew()));
-                        }, child: const Text(" dgvfdgbfg", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
-                        ),
 
 
 
