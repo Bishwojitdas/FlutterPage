@@ -81,8 +81,19 @@ class _Empty_PageState extends State<Empty_Page> {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => TimeDateNew()));
                         }, child: const Text(" Date", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
                         ),
+                        
+
+                        Text("Hello"),
 
 
+                        const SizedBox(height: 10,),
+                        ElevatedButton(onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => TimeDateNew()));
+                        }, child: const Text(" Date", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                        ),
+
+
+                        Text("Hello")
 
 
 
