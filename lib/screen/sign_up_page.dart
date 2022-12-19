@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -67,7 +67,7 @@ class _SignUp_PageState extends State<SignUp_Page> {
 
                       enabledBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.indigo, width: 2),
                           borderRadius:BorderRadius.all(Radius.circular(100))),
-                      focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: CupertinoColors.activeGreen, width: 2),
+                      focusedBorder:  const OutlineInputBorder(borderSide: BorderSide(color: Colors.green, width: 2),
                           borderRadius:BorderRadius.all(Radius.circular(100))),
                      suffixIcon: IconButton(onPressed: () {
 
@@ -99,7 +99,7 @@ class _SignUp_PageState extends State<SignUp_Page> {
 
                         enabledBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.indigo, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100)) ),
-                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: CupertinoColors.activeGreen, width: 2),
+                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.green, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100))),
                         suffixIcon: IconButton(onPressed: () {
 
@@ -131,7 +131,7 @@ class _SignUp_PageState extends State<SignUp_Page> {
 
                         enabledBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.indigo, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100)) ),
-                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: CupertinoColors.activeGreen, width: 2),
+                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.green, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100))),
                         suffixIcon: IconButton(onPressed: () {
 
@@ -168,7 +168,7 @@ class _SignUp_PageState extends State<SignUp_Page> {
                             borderRadius:BorderRadius.all(Radius.circular(100)) ),
                         errorBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.red, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100))),
-                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: CupertinoColors.activeGreen, width: 2),
+                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.green, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100))),
                         suffixIcon: IconButton(onPressed: () {
                           setState(() {
@@ -208,7 +208,7 @@ class _SignUp_PageState extends State<SignUp_Page> {
 
                         enabledBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.indigo, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100)) ),
-                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: CupertinoColors.activeGreen, width: 2),
+                        focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: Colors.green, width: 2),
                             borderRadius:BorderRadius.all(Radius.circular(100))),
                         suffixIcon: IconButton(onPressed: () {
                           setState(() {
