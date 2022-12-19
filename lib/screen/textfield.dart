@@ -41,6 +41,12 @@ class _TextFieldNewState extends State<TextFieldNew> {
                 padding: EdgeInsets.only(left: 20),
                 child: Text("Bishwojit chandra das", style: LatoThin),
               ),
+              const SizedBox(height: 10,),
+              const Padding(
+                padding: EdgeInsets.only(left: 20),
+                child: Text("Bishwojit chandra das", style: LatoThin),
+              ),
+
             ],
 
           ),
