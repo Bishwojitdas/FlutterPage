@@ -94,6 +94,27 @@ flutter:
           weight: 300
         - asset: assets/fonts/lato/Lato-Thin.ttf
           weight: 100
+
+    - family: Chivo Mono
+      fonts:
+        - asset: assets/fonts/chivo/ChivoMono-Black.ttf
+          weight: 900
+        - asset: assets/fonts/chivo/ChivoMono-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/chivo/ChivoMono-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/chivo/ChivoMono-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/chivo/ChivoMono-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/chivo/ChivoMono-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/chivo/ChivoMono-Light.ttf
+          weight: 300
+        - asset: assets/fonts/chivo/ChivoMono-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/chivo/ChivoMono-Thin.ttf
+          weight: 100
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
