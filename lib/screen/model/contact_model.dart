@@ -1,17 +1,17 @@
 
 List<Contact> contactList=[
-  new Contact("Bishwojit", "01868690289"),
-  new Contact("SU Robin", "01747606057"),
-  new Contact("Imteaj Mahie", "01888074660"),
-  new Contact("Iftekhar", "01863145253"),
-  new Contact("Rakib", "01612936282"),
-  new Contact("Shimul", "01840171930"),
-  new Contact("Bishwojit", "01868690289"),
-  new Contact("SU Robin", "01747606057"),
-  new Contact("Imteaj Mahie", "01888074660"),
-  new Contact("Iftekhar", "01863145253"),
-  new Contact("Rakib", "01612936282"),
-  new Contact("Shimul", "01840171930"),
+  Contact("Bishwojit", "01868690289"),
+  Contact("SU Robin", "01747606057"),
+  Contact("Imteaj Mahie", "01888074660"),
+  Contact("Iftekhar", "01863145253"),
+  Contact("Rakib", "01612936282"),
+  Contact("Shimul", "01840171930"),
+  Contact("Bishwojit", "01868690289"),
+  Contact("SU Robin", "01747606057"),
+  Contact("Imteaj Mahie", "01888074660"),
+  Contact("Iftekhar", "01863145253"),
+  Contact("Rakib", "01612936282"),
+  Contact("Shimul", "01840171930"),
 ];
 
 class Contact{
