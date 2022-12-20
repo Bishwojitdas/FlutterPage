@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:link_up_pages/drawer_Navigation.dart';
 import 'package:link_up_pages/screen/call_app.dart';
 import 'package:link_up_pages/screen/drawerAndBottomNavigation.dart';
 import 'package:link_up_pages/screen/image_date_time.dart';
@@ -95,8 +96,8 @@ class _Empty_PageState extends State<Empty_Page> {
 
                         const SizedBox(height: 10,),
                         ElevatedButton(onPressed: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (context) => const DrawerAndBottomNavigation()));
-                        }, child: const Text("Drawer And Bottom", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => const MyDrawer()));
+                        }, child: const Text("Drawer", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
                         ),
 
 
