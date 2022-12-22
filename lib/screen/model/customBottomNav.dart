@@ -14,7 +14,7 @@ class BottomNavItem extends StatelessWidget {
       onTap: (){
         onTap();
       },
-      child: Icon(icon),
+      child: Icon(icon, color: Colors.white,),
     ));
   }
 }
