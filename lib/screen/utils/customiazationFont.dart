@@ -84,3 +84,16 @@ const ChivoMonoThin=TextStyle(
   fontSize: Dimensions.FontSizeDefault,
   fontWeight: FontWeight.w100,
 );
+
+  FullWidth(BuildContext context){
+    return MediaQuery.of(context).size.width;
+  }
+
+  FullHeight(BuildContext context){
+    return MediaQuery.of(context).size.height;
+  }
+
+
+isPotrate(BuildContext context){
+  return MediaQuery.of(context).orientation;
+}
