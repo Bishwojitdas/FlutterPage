@@ -345,29 +345,32 @@ class _HomePageState extends State<HomePage> {
                                     onTap: () {
 
                                     },
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                                      children: [
-                                        Container(
-                                          height: 130,
-                                          width: 250,
-                                          decoration:  BoxDecoration(
-                                              borderRadius: const BorderRadius.all(Radius.circular(10)),
-                                              border: Border.all(color: Colors.black)
-                                          ),
-                                          child: ClipRRect(
-                                            borderRadius:const BorderRadius.all(Radius.circular(10)),
-                                            child: Image.asset(
-                                              "assets/images/bishwojit_cls_2.jpg",
-                                              fit: BoxFit.cover,),
+                                    child: Container(
+                                      height: 200,
+                                      width: FullWidth(context)/1.7,
+                                      child: Column(
+                                        children: [
+                                          Container(
+                                            height: 130,
+                                            width: FullWidth(context)/1.7,
+                                            decoration:  BoxDecoration(
+                                                borderRadius: const BorderRadius.all(Radius.circular(10)),
+                                                border: Border.all(color: Colors.black)
+                                            ),
+                                            child: ClipRRect(
+                                              borderRadius:const BorderRadius.all(Radius.circular(10)),
+                                              child: Image.asset(
+                                                "assets/images/bishwojit_cls_2.jpg",
+                                                fit: BoxFit.cover,),
 
+                                            ),
                                           ),
-                                        ),
-                                        Text("Everything you need to know", style: LatoBold.copyWith(fontSize: 18),),
-                                        Text("about global warming ", style: LatoBold.copyWith(fontSize: 18),),
-                                        Text("by Bishwojit Das ", style: LatoRegular.copyWith(fontSize: 15),)
-                                      ],
+                                          SizedBox(height: 3,),
+                                          Text("Everything you need to know about global warming by Bishwojit Das",
+                                            style: LatoBold.copyWith(fontSize: 18),),
+
+                                        ],
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -383,7 +386,7 @@ class _HomePageState extends State<HomePage> {
                                       children: [
                                         Container(
                                           height: 130,
-                                          width: 250,
+                                          width: FullWidth(context)/1.5,
                                           decoration:  BoxDecoration(
                                               borderRadius: const BorderRadius.all(Radius.circular(10)),
                                               border: Border.all(color: Colors.black)
@@ -415,7 +418,7 @@ class _HomePageState extends State<HomePage> {
                                       children: [
                                         Container(
                                           height: 100,
-                                          width: 100,
+                                          width: FullWidth(context)/1.5,
                                           decoration:  BoxDecoration(
                                               borderRadius: const BorderRadius.all(Radius.circular(10)),
                                               border: Border.all(color: Colors.black)

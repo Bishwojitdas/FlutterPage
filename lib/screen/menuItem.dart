@@ -6,6 +6,7 @@ import 'package:link_up_pages/screen/drawerAndBottomNavigation.dart';
 import 'package:link_up_pages/screen/image_date_time.dart';
 import 'package:link_up_pages/screen/login_account.dart';
 import 'package:link_up_pages/screen/listview_builder.dart';
+import 'package:link_up_pages/screen/model/responsiveDesign.dart';
 import 'package:link_up_pages/screen/model/tabBarDemo.dart';
 import 'package:link_up_pages/screen/model/time_date_page_new.dart';
 import 'package:link_up_pages/screen/sign_up_page.dart';
@@ -117,6 +118,12 @@ class _Empty_PageState extends State<Empty_Page> {
                         ElevatedButton(onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => const TabBarDemo()));
                         }, child: const Text("TabBar", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                        ),
+
+                        const SizedBox(height: 10,),
+                        ElevatedButton(onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => const ResponsiveDesign()));
+                        }, child: const Text("Responsive Design", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
                         ),
                       ],
                     ),
