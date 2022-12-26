@@ -3,14 +3,14 @@ import 'package:link_up_pages/screen/model/youtubeModel.dart';
 import 'package:link_up_pages/screen/utils/customiazationFont.dart';
 import 'package:link_up_pages/youtube/youtubeDrawer.dart';
 
-class MobileDesign extends StatefulWidget {
-  const MobileDesign({Key? key}) : super(key: key);
+class ChadalMobileDesign extends StatefulWidget {
+  const ChadalMobileDesign({Key? key}) : super(key: key);
 
   @override
-  State<MobileDesign> createState() => _MobileDesignState();
+  State<ChadalMobileDesign> createState() => _ChadalMobileDesignState();
 }
 
-class _MobileDesignState extends State<MobileDesign>{
+class _ChadalMobileDesignState extends State<ChadalMobileDesign>{
   
 
   @override
