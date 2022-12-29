@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:link_up_pages/homework/homePage.dart';
+import 'package:link_up_pages/homework/shop/onlineProduct.dart';
 import 'package:link_up_pages/screen/image_date_time.dart';
 import 'package:link_up_pages/screen/listview_builder.dart';
 import 'package:link_up_pages/screen/model/customBottomNav.dart';
@@ -31,11 +32,10 @@ class _DrawerAndBottomNavState extends State<DrawerAndBottomNav> {
       ListView_Demo(),
       const HomePage(),
       const SignUp_Page(),
-      const ImageDateTime(),
+      const OnlineShop(),
 
     ];
   }
-
   _setPage(int index){
     setState(() {
       _pageController.jumpToPage(index);

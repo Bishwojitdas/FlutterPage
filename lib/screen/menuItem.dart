@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:link_up_pages/drawer_Navigation.dart';
 import 'package:link_up_pages/gridViewDemo.dart';
+import 'package:link_up_pages/homework/creativeIt/creativeResponsive.dart';
+import 'package:link_up_pages/homework/shop/onlineProduct.dart';
 import 'package:link_up_pages/screen/call_app.dart';
 import 'package:link_up_pages/screen/drawerAndBottomNavigation.dart';
 import 'package:link_up_pages/screen/image_date_time.dart';
@@ -124,6 +126,18 @@ class _Empty_PageState extends State<Empty_Page> {
                         ElevatedButton(onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => const ResponsiveDesign()));
                         }, child: const Text("Responsive Design", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                        ),
+
+                        const SizedBox(height: 10,),
+                        ElevatedButton(onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => const OnlineShop()));
+                        }, child: const Text("Shop", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                        ),
+
+                        const SizedBox(height: 10,),
+                        ElevatedButton(onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => const CreativeResponsive()));
+                        }, child: const Text("Creative it", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
                         ),
                       ],
                     ),
