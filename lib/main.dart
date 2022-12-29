@@ -3,6 +3,8 @@ import 'package:link_up_pages/provider/post_Provider.dart';
 import 'package:link_up_pages/screen/stack_demo.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
+import 'package:link_up_pages/homework/chadal/chadalResponsiveDesign.dart';
+import 'package:http/http.dart';
 void main() {
   runApp(MultiProvider(
       providers: providers,

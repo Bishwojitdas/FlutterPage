@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:link_up_pages/screen/utils/customiazationFont.dart';
 
 class DropDownButton extends StatefulWidget {
   const DropDownButton({Key? key}) : super(key: key);
@@ -17,25 +18,100 @@ class DropDownButton extends StatefulWidget {
 
 
 
-
-
   @override
   Widget build(BuildContext context) {
 
-
-
-
-
-
-
   return Scaffold(
+    appBar: AppBar(
+
+    ),
+    drawer: Drawer(
+      child: ListView(
+        children: [
+          DrawerHeader(
+            decoration:const BoxDecoration(
+                color: Colors.green
+            ),
+            child: Text("Navigation Drawer", style: LatoBold.copyWith(color: Colors.white, fontSize: 20),),
+          ),
+
+          ListTile(
+            leading: IconButton(
+              onPressed: () {
+
+              },
+              icon: Icon(Icons.call,),
+            ),
+            title: Text("Bishwojit Chandra Das"),
+            subtitle: Text("Software Developer"),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: IconButton(
+              onPressed: () {
+
+              },
+              icon: Icon(Icons.alarm,),
+            ),
+            title: Text("MD NI Rakib"),
+            subtitle: Text("Software Developer"),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: IconButton(
+              onPressed: () {
+
+              },
+              icon: Icon(Icons.person,),
+            ),
+            title: Text("JH Shimul"),
+            subtitle: Text("Software Developer"),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: IconButton(
+              onPressed: () {
+
+              },
+              icon: Icon(Icons.camera_alt,),
+            ),
+            title: Text("Imteaj Mahie"),
+            subtitle: Text("Software Developer"),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: IconButton(
+              onPressed: () {
+
+              },
+              icon: Icon(Icons.message,),
+            ),
+            title: Text("SFU Robin"),
+            subtitle: Text("Software Developer"),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          )
+        ],
+      ),
+    ),
   body: Center(
   child: Column(
-  mainAxisAlignment: MainAxisAlignment.center,
+  mainAxisAlignment: MainAxisAlignment.start,
   children: [
+                  SizedBox(height: 100,),
                     Text(selected!, style: const TextStyle(fontSize: 20, color: Colors.blueAccent, fontWeight: FontWeight.bold),),
 
-                    DropdownButton( iconDisabledColor: Colors.green, hint: Text("Select"), icon: Icon(Icons.arrow_downward_outlined, color: Colors.red, size: 30,), style: TextStyle(fontSize: 20, color: Colors.indigo), items: const [
+                    DropdownButton( iconDisabledColor: Colors.green, hint: Text("Select"),
+                        icon: Icon(Icons.arrow_downward_outlined, color: Colors.red, size: 30,), style: TextStyle(fontSize: 20, color: Colors.indigo), items: const [
                       DropdownMenuItem(
                           value: "Bishwojit",
                           child: Text("Bishwojit")),
