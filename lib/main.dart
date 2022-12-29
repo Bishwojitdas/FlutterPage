@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:link_up_pages/provider/post_Provider.dart';
 import 'package:link_up_pages/screen/stack_demo.dart';
-
+import 'package:provider/provider.dart';
+import 'package:provider/single_child_widget.dart';
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(
+      providers: providers,
+      child: const MyApp())
+  );
 }
+
+List<SingleChildWidget>providers=[
+ChangeNotifierProvider<PostProvider>(create:(_)=> PostProvider()),
+];
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
