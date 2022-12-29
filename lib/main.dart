@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/homework/chadal/chadalResponsiveDesign.dart';
+import 'package:link_up_pages/provider/post_Provider.dart';
 import 'package:link_up_pages/screen/stack_demo.dart';
 import 'package:provider/provider.dart';
+import 'package:provider/single_child_widget.dart';
+import 'package:link_up_pages/homework/chadal/chadalResponsiveDesign.dart';
 import 'package:http/http.dart';
-
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(
+      providers: providers,
+      child: const MyApp())
+  );
 }
+
+List<SingleChildWidget>providers=[
+ChangeNotifierProvider<PostProvider>(create:(_)=> PostProvider()),
+];
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -119,9 +127,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ),
 
-                      TextButton(onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => ChadalResponsiveDesign(),));
-                      }, child: Text("Chadal"))
 
                     ],
                   ),
