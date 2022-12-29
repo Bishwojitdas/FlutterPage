@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:link_up_pages/homework/chadal/chadalResponsiveDesign.dart';
 import 'package:link_up_pages/screen/stack_demo.dart';
+import 'package:provider/provider.dart';
+import 'package:http/http.dart';
 
 void main() {
   runApp(const MyApp());
