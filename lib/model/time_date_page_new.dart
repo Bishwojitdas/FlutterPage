@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:link_up_pages/screen/model/customDrawer.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/model/customDrawer.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 
 class TimeDateNew extends StatefulWidget {
   const TimeDateNew({Key? key}) : super(key: key);

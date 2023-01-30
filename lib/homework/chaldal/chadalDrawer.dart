@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:link_up_pages/homework/chadal/chadalDropdown.dart';
-import 'package:link_up_pages/screen/model/youtubeModel.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/homework/chaldal/chadalDropdown.dart';
+import 'package:link_up_pages/model/youtubeModel.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 
-class ChadalDrawer extends StatelessWidget {
+class ChaldalDrawer extends StatelessWidget {
   int isChange=0;
   String? selected = "Choose";
-  ChadalDrawer({Key? key}) : super(key: key);
+  ChaldalDrawer({Key? key}) : super(key: key);
 
 
   @override

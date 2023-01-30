@@ -24,7 +24,7 @@ class _SignUp_PageState extends State<SignUp_Page> {
   bool isCheck=false;
   String savePassword="";
 
-  var _formKey=GlobalKey<FormState >();
+  var _formKey=GlobalKey<FormState>();
 
   void _submit(){
     if(_formKey.currentState!.validate()){

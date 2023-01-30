@@ -1,34 +1,34 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/repository/post_Ripo.dart';
-import 'package:link_up_pages/screen/model/postModel.dart';
+import 'package:link_up_pages/repository/post_Repo.dart';
+import 'package:link_up_pages/model/postModel.dart';
 
 class PostProvider with ChangeNotifier{
-PostRipository postRipo=PostRipository();
 
+PostRepository postRepo=PostRepository();
+PostModel postModel = PostModel();
 bool loading=false;
 
-List<PostModel>? _postlist;
-List<PostModel>? get postlist=> _postlist;
+
+List<PostModel>? _postList;
+List<PostModel>? get postList=>_postList;
 
 PostModel? _post;
-PostModel? get post=>_post;
-
+PostModel? get post => _post;
 
 getPostData(context) async {
-  loading = true;
-  _post=await postRipo!.getSinglePostData(context);
-  loading = false;
-  notifyListeners();
-}
-
-getPostListData(context) async{
   loading=true;
-  _postlist= await postRipo!.getPostListData(context);
+  _post= await postRepo!.getSinglePostData(context);
   loading=false;
-  print(_postlist);
   notifyListeners();
 }
 
+getPostListData(context) async {
+  loading=true;
+  _postList= await postRepo.getPostListData(context);
+  loading=false;
+  print(_postList);
+  notifyListeners();
+}
 
 }
 

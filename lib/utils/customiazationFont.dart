@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/screen/utils/dimensions.dart';
+import 'package:link_up_pages/utils/dimensions.dart';
 
 const LatoBlack=TextStyle(
   fontFamily: 'Lato',

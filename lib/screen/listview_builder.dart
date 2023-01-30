@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/screen/model/contact_model.dart';
+import 'package:link_up_pages/model/contact_model.dart';
 import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 
 class ListView_Demo extends StatefulWidget {

@@ -3,14 +3,16 @@ import 'package:link_up_pages/drawer_Navigation.dart';
 import 'package:link_up_pages/gridViewDemo.dart';
 import 'package:link_up_pages/homework/creativeIt/creativeResponsive.dart';
 import 'package:link_up_pages/homework/shop/onlineProduct.dart';
+import 'package:link_up_pages/screen/albumDemo.dart';
 import 'package:link_up_pages/screen/call_app.dart';
 import 'package:link_up_pages/screen/drawerAndBottomNavigation.dart';
 import 'package:link_up_pages/screen/image_date_time.dart';
 import 'package:link_up_pages/screen/login_account.dart';
 import 'package:link_up_pages/screen/listview_builder.dart';
-import 'package:link_up_pages/screen/model/responsiveDesign.dart';
-import 'package:link_up_pages/screen/model/tabBarDemo.dart';
-import 'package:link_up_pages/screen/model/time_date_page_new.dart';
+import 'package:link_up_pages/model/responsiveDesign.dart';
+import 'package:link_up_pages/model/tabBarDemo.dart';
+import 'package:link_up_pages/model/time_date_page_new.dart';
+import 'package:link_up_pages/screen/postDemo.dart';
 import 'package:link_up_pages/screen/sign_up_page.dart';
 import 'package:link_up_pages/screen/textfield.dart';
 
@@ -138,6 +140,17 @@ class _Empty_PageState extends State<Empty_Page> {
                         ElevatedButton(onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => const CreativeResponsive()));
                         }, child: const Text("Creative it", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                        ),
+
+                        const SizedBox(height: 10,),
+                        ElevatedButton(onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => PostDemoScreen()));
+                        }, child: const Text("Rest API", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
+                        ),
+                        const SizedBox(height: 10,),
+                        ElevatedButton(onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => AlbumDemo()));
+                        }, child: const Text("Album Demo with Provider", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)
                         ),
                       ],
                     ),

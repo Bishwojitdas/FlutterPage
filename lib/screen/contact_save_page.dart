@@ -53,12 +53,10 @@ class _ContactSavePageState extends State<ContactSavePage> {
 
                             }, icon: const Icon(Icons.person_outline_rounded,color: Colors.white,))
                           ),
-                          keyboardType: TextInputType.name,
+                          keyboardType: TextInputType.text,
                           controller: _nameController,
-                          maxLength: 20,
-                          inputFormatters:[
-                            FilteringTextInputFormatter.allow(RegExp('[a-z A-Z 0-9 @ . #]'))
-                          ],
+                          maxLength: 110,
+
                           validator: (value) {
                             if(value!.isEmpty)
                             {
