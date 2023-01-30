@@ -30,7 +30,7 @@ class _TabBarDemoState extends State<TabBarDemo>with TickerProviderStateMixin {
         home: DefaultTabController(length: 4,
             child: Scaffold(
               appBar: AppBar(
-                title: const Text("TapBar"),
+                title: const Text("TabBar"),
                 bottom: TabBar(
                     controller: _tabController,
                     tabs: const [

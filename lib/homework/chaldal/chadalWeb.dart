@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/homework/chadal/chadalDrawer.dart';
+import 'package:link_up_pages/homework/chaldal/chadalDrawer.dart';
+
 import 'package:link_up_pages/screen/image_date_time.dart';
-import 'package:link_up_pages/screen/model/youtubeModel.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/model/youtubeModel.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 import 'package:link_up_pages/youtube/youtubeDrawer.dart';
 
 class ChadalWebDesign extends StatefulWidget {
@@ -219,7 +220,7 @@ class _ChadalWebDesignState extends State<ChadalWebDesign> {
             ),
 
             key: _scaffoldKey,
-            drawer: ChadalDrawer(),
+            drawer: ChaldalDrawer(),
             body: ListView(
               children: [
                 SizedBox(height: 10,),

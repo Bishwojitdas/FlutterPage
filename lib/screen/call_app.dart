@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:link_up_pages/screen/contact_save_page.dart';
-import 'package:link_up_pages/screen/model/contact_model.dart';
+import 'package:link_up_pages/model/contact_model.dart';
 
 class CallApp extends StatefulWidget {
   const CallApp({Key? key}) : super(key: key);

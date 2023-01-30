@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:link_up_pages/homework/creativeIt/creativeMobile.dart';
 import 'package:link_up_pages/homework/creativeIt/creativeTab.dart';
 import 'package:link_up_pages/homework/creativeIt/creativeWeb.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 
 class CreativeResponsive extends StatefulWidget {
   const CreativeResponsive({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/screen/model/contact_model.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/model/contact_model.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 import 'package:url_launcher/url_launcher.dart' as UrlLauncher;
 
 class GridViewDemo extends StatefulWidget {
@@ -20,7 +20,8 @@ class _GridViewDemoState extends State<GridViewDemo> {
             color:Colors.black,
             height: FullHeight(context),
             width: FullWidth(context),
-            child: GridView.count( crossAxisCount: 3,
+            child:
+            GridView.count( crossAxisCount:2,
               children: List.generate(contactList.length, (index) {
                 return Padding(
                   padding: const EdgeInsets.all(10),

@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:link_up_pages/screen/model/youtubeModel.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/model/youtubeModel.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 
 class YoutubeDrawer extends StatelessWidget {
   int isChange=0;

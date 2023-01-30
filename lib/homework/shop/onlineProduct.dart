@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:link_up_pages/homework/homePage.dart';
 import 'package:link_up_pages/homework/shop/orderList.dart';
 import 'package:link_up_pages/screen/listview_builder.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 
 class OnlineShop extends StatefulWidget {
   const OnlineShop({Key? key}) : super(key: key);

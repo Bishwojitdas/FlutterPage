@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:link_up_pages/screen/utils/customiazationFont.dart';
+import 'package:link_up_pages/utils/customiazationFont.dart';
 
 class TextFieldNew extends StatefulWidget {
   const TextFieldNew({Key? key}) : super(key: key);

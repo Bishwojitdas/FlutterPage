@@ -3,8 +3,8 @@ import 'package:link_up_pages/homework/homePage.dart';
 import 'package:link_up_pages/homework/shop/onlineProduct.dart';
 import 'package:link_up_pages/screen/image_date_time.dart';
 import 'package:link_up_pages/screen/listview_builder.dart';
-import 'package:link_up_pages/screen/model/customBottomNav.dart';
-import 'package:link_up_pages/screen/model/customDrawer.dart';
+import 'package:link_up_pages/model/customBottomNav.dart';
+import 'package:link_up_pages/model/customDrawer.dart';
 import 'package:link_up_pages/screen/profile_page.dart';
 import 'package:link_up_pages/screen/sign_up_page.dart';
 
@@ -48,7 +48,6 @@ class _DrawerAndBottomNavState extends State<DrawerAndBottomNav> {
     return WillPopScope(
       onWillPop: () async{
         if(_pageIndex!=1){
-
           _setPage(1);
           return false;
         }else{
